@@ -1,0 +1,13 @@
+@import '../../vars.scss';
+
+.bread {
+  font-size: 14px;
+  color: #7A8AA2;
+  a.bread-item:hover {
+    color: $theme-blue;
+  }
+
+  .bread-split {
+    padding: 0 10px;
+  }
+}

@@ -1,0 +1,81 @@
+@import '../../vars.scss';
+
+.PG-vote {
+  background-color: #fff;
+  min-height: 600px;
+
+  .vote-btn {
+    font-size: 14px;
+    min-width: 200px;
+    margin: 40px auto 0;
+  }
+}
+
+.PG-vote-hd {
+  position: relative;
+  height: 240px;
+  overflow: hidden;
+
+  background-position: 50%;
+  background-size: 100%;
+  background-image: url($path-oss + '/vote-bg.jpg');
+  text-align: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h1 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 14px;
+    margin: 0;
+    margin-top: 20px;
+  }
+}
+
+.PG-vote-m {
+  max-width: 800px;
+  padding: 40px 0 100px;
+  margin: 0 auto;
+
+  a {
+    color: $theme-blue;
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+
+  .hr {
+    margin: 20px 0;
+    height: 1px;
+    width: 100%;
+    background-color: #e5e5e5;
+  }
+}
+
+.PG-vote-tb {
+  margin-top: 40px;
+  border: 1px solid #f2f2f2;
+
+  .pure-table-hd {
+    li {
+      padding: 10px;
+      font-weight: bold;
+    }
+  }
+
+  .pure-table-it {
+    border-top: 1px solid #f2f2f2;
+    li {
+      padding: 10px;
+    }
+  }
+}
+
+.PG-vote-note {
+  margin-top: 40px;
+}

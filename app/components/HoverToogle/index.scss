@@ -1,0 +1,27 @@
+.CM-hover-toggle {
+  position: relative;
+
+  .bd {
+    position: absolute;
+    z-index: 3;
+    display: none;
+    word-break: normal;
+    white-space: nowrap;
+
+    &.ord-left {
+      left: 0;
+      text-align: left;
+    }
+
+    &.ord-right {
+      right: 0;
+      text-align: right;
+    }
+  }
+
+  &:hover {
+    .bd {
+      display: block;
+    }
+  }
+}

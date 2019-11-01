@@ -1,0 +1,50 @@
+
+// 主题色 
+$theme-color: #004785 !default;
+
+// 配色 蓝
+$theme-blue: #008dc2 !default;
+
+// 灰色
+$gray-color: #BEBEBE !default;
+
+// header height
+$header-h: 68px !default;
+$header-h-s: 46px !default;
+
+$header-txt-color: #DAE9F1 !default;
+
+// sizing
+$media-lg: 1200px !default;
+$media-md: 1080px !default;
+$media-sm: 780px !default;
+
+// border
+$border-color: #f2f2f2 !default;
+
+// bg
+$hover-bg: #F9FAFA !default;
+
+// const
+$path-oss: 'https://dprating.oss-cn-shanghai.aliyuncs.com/prod/website-v2' !default;
+
+/**
+ * mixins
+ */
+
+@mixin clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+@mixin cubic ($duration: 0.3s) {
+  transition: all $duration cubic-bezier(0.645, 0.045, 0.355, 1);
+}

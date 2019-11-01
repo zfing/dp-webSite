@@ -1,0 +1,36 @@
+.title-bar {
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #F2F2F2;
+  padding: 0 30px;
+
+  h3 {
+    font-size: 16px;
+    position: relative;
+    padding-left: 10px;
+    &:before {
+      content: '';
+      display: inline-block;
+      background: #008DC2;
+      width: 4px;
+      height: 100%;
+      position: absolute;
+      left: 0px;
+      top: 0;
+    }
+  }
+
+  .suffix {
+    padding: 5px 0;
+    cursor: pointer;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #008ec7;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}

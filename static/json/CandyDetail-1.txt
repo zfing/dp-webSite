@@ -1,0 +1,13 @@
+<div style="max-width: 800px;margin: 0 auto;">
+  <div style="text-align: center;margin-bottom: 40px;">
+    <img alt="" src="https://dprating.oss-cn-shanghai.aliyuncs.com/prod/admin/rating/WechatIMG7.jpeg" />
+  </div>
+  <p>空投福利第一弹，我们要送出的福利，是由 BitMax 交易所提供的 5000枚 YAP 空投，覆盖500名新用户，每人可领取 <b>10枚YAP（等值约5USDT）。</b></p>
+  <h2>活动规则：</h2>
+  <p>我们将于<b>6月23（本周日）中午12:00</b> 在官网爆料区，以爆料发帖的形式为社区用户发送空投链接，注册用户才可查看帖子内容<b>（还未注册的用户赶快来注册哦）</b>，获取大炮评级专属空投链接。用户通过获取的专属链接在 BitMax 官网注册并完成 KYC1 认证，即可获取空投 YAP。</p>
+  <h2>说明：</h2>
+  <p>（1）<b>本次空投限额500份</b>，先到先得，送完即止。</p>
+  <p>（2）只有通过大炮评级专属空投链接在 BitMax 注册账号，才能领到空投，通过其他链接注册账号无法领取空投奖励。</p>
+  <h2>奖励发放：</h2>
+  <p>10枚YAP将在 2019.06.26 下午 6:00 自动空投到 BitMax 钱包地址，无需用户任何操作。</p>
+</div>

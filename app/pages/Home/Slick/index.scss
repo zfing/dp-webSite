@@ -1,0 +1,21 @@
+.slick-hd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 45px;
+  padding: 0 21px;
+  border-bottom: 1px solid #dae9f1;
+
+  h3 {
+    font-size: 14px;
+  }
+
+  .iconfont {
+    color: #88cdde;
+    font-size: 22px;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}

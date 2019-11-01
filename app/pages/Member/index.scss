@@ -1,0 +1,69 @@
+@import '../../vars.scss';
+
+.PG-member-hd {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: 0;
+    bottom: -50px;
+    background-position: 50%;
+    background-size: 100%;
+    filter: blur(20px);
+    z-index: 1;
+    background-image: url($path-oss + '/rating-bg-01.png');
+  }
+
+  .main {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    font-size: 14px;
+
+    h4 {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+    
+    .follows {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+
+      .item {
+        text-align: center;
+        line-height: 18px;
+        span {
+          display: block;
+          &:first-child {
+            font-size: 16px;
+          }
+          &:last-child {
+            color: hsla(0,0%,100%,.5);
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.PG-member-bd {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 0;
+}

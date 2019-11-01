@@ -1,0 +1,65 @@
+@import '../../vars.scss';
+
+.PG-pro-detail {
+  .title {
+    font-size: 14px;
+  }
+
+  .html {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: rgba(38,38,38,0.90);
+    line-height: 20px;
+  }
+
+  .table-scoll {
+    overflow-x: scroll;
+  }
+
+  .table {
+    min-width: 600px;
+    font-size: 14px;
+    div {
+      height: 48px;
+      line-height: 48px;
+
+      &:nth-child(2n-1) {
+        background: #F5F9FA;
+        font-family: PingFangSC-Medium;
+      }
+    }
+
+    .table-split span {
+      width: 33.333%
+    }
+
+    span {
+      padding: 0 20px;
+      display: inline-block;
+    }
+
+    a {
+      margin-right: 10px;
+    }
+  }
+
+  .iframe {
+    margin-top: 20px;
+    height: 422px;
+    background: black;
+  }
+
+  .pure-tab-bd {
+    padding: 15px;
+  }
+
+  .PG-pro-detail-more {
+    display: block;
+    text-align: center;
+    padding: 12px 0;
+    &:hover {
+      background-color: $hover-bg;
+      color: $theme-blue;
+    }
+  }
+}

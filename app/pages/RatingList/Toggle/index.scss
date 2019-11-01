@@ -1,0 +1,27 @@
+.PG-ratings-toggle {
+  display: flex;
+  align-items: center;
+
+  span {
+    cursor: pointer;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  .icon-wrapper {
+    height: 10px;
+    width: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon {
+    display: block;
+    width: 0;
+    height: 0;
+    border-width: 4px;
+    border-style: solid;
+  }
+}

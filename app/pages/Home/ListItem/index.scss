@@ -1,0 +1,66 @@
+@import '../../../vars.scss';
+
+.Ph-list-item {
+  padding: 15px 20px;
+  border-bottom: 1px solid #F2F2F2;
+  background: #fff;
+  font-size: 12px;
+
+  .hd {
+    font-family: PingFangSC-Semibold;
+    @include clearfix();
+
+    h3 {
+      float: left;
+
+      a {
+        &:hover {
+          color: $theme-blue;
+        }
+      }
+    }
+
+    .top {
+      padding: 2px 4px;
+      font-size: 12px;
+      color: white;
+      border-radius: 2px;
+      background-color: #64A1FC;
+      font-family: PingFangSC-Semibold;
+      transform: scale(0.9);
+      margin-right: 5px;
+    }
+
+    .pith {
+      padding: 2px 4px;
+      text-align: center;
+      font-size: 12px;
+      color: white;
+      border-radius: 2px;
+      background-color: #FC6464;
+      font-family: PingFangSC-Semibold;
+      transform: scale(0.9);
+      margin-right: 5px;
+    }
+  }
+
+  p {
+    color: #323232;
+    margin: 10px 0 0;
+  }
+
+  .ft {
+    @include clearfix();
+    margin-top: 10px;
+    color: #B0BACA;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      float: left;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}

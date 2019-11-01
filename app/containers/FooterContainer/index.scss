@@ -1,0 +1,72 @@
+@import '../../vars.scss';
+
+footer {
+  background-color: $theme-color;
+  color: #BCD2E2;
+  font-size: 12px;
+
+  a {
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .hd {
+    background: #004f92;
+    @include clearfix();
+
+    @media (max-width: 860px) {
+      display: none;
+    }
+
+    .left {
+      padding: 20px 0;
+      a {
+        margin-right: 30px;
+      }
+    }
+
+    .right {
+      padding: 20px 0;
+      a {
+        margin-left: 15px;
+      }
+    }
+
+    .wx-box {
+      position: relative;
+      img {
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        right: 0;
+        bottom: 30px;
+        display: none;
+        background-color: #fff;
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      &:hover {
+        img {
+          display: block;
+        }
+      }
+    }
+  }
+
+  .links {
+    padding: 20px 0;
+
+    .item {
+      display: inline-block;
+      width: 120px;
+      padding: 10px 20px 10px 0;
+      overflow: hidden;
+    }
+  }
+
+  .copy {
+    border-top: 1px solid #1A5F97;
+    padding: 20px 0;
+  }
+}

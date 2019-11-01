@@ -1,0 +1,9 @@
+.logo {
+  margin-left: 10px;
+  &:hover {
+    opacity: 0.5;
+  }
+  img {
+    width: 140px;
+  }
+}

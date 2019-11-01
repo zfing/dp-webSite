@@ -1,0 +1,274 @@
+{
+  "home": {
+    "zh": {
+      "title": "大炮评级（DPRating） - 全球领先的专业、第三方区块链评级机构",
+      "keywords": "大炮评级,DPRating,Rating,ICO评级,比特币评级,比特币行情,比特币价格走势,区块链评级,区块链资讯,STO评级,数字货币,数字货币价格预测",
+      "description": "大炮评级（DPRating）提供专业、客观的第三方区块链、ICO、STO评级，并提供基于评级的价格预测、走势分析、买入卖出建议，还提供数字货币综合指数、行业研究报告等"
+    },
+    "en": {
+      "title": "DPRating - A global leading third-party cryptocurrency rating agency",
+      "keywords": "DPRating,ICO Rating,Crypto Rating,ICO review,Cryptocurrency Rating,Crypto review,Cryptocurrency review,STO review,Crypto analysis",
+      "description": "DPRating offers professional subjective third-party reviews on crypto, ICO and STO, we also offers price prediction, trend analyzing, crypto index and industry research reports"
+    },
+    "ko": {
+      "title": "DPRating - 글루벌 선두한 전문적인 제3자 블록 체인 등급 평가 기관",
+      "keywords": "DPRating,ICO 등급, 블록 체인 등급, STO 등급,ICO,ICORating,Rating",
+      "description": "DPRating은 전문적이고 객관적인 제 3 자 블록 체인, ICO, STO 등급을 제공하고 가격 기반 가격 예측, 추세 분석, 구매 및 판매 권장 사항, 디지털 통화 합성 지수, 업계 조사 보고서 등을 제공합니다."
+    }
+  },
+  "ratingList": {
+    "zh": {
+      "title": "已评级项目列表 | 大炮评级（DPRating）",
+      "keywords": "ICO、STO项目评级,ICO、STO历史项目,大炮评级,DPRating",
+      "description": "大炮评级（DPRating）ICO、STO等项目已评级历史项目"
+    },
+    "en": {
+      "title": "List of rated projects | DPRating",
+      "keywords": "Rated list,Reviewed list,Unlisted tokens list,Listed tokens list,Report list",
+      "description": "List of all the projects we have rated"
+    },
+    "ko": {
+      "title": "이미 평정된 프로젝트 리스트 | DPRating",
+      "keywords": "ICO,STO 프로젝트 등급,ICO、STO역사 프로젝트,DPRating",
+      "description": "대포 평가 (DPRating) ICO, STO 등 종목은 이미 역사 항목을 평가했다"
+    }
+  },
+  "ratingDetail": {
+    "zh": {
+      "title": "{xxx1}（{xxx3}） - 评级报告及价格走势预测 | 大炮评级（DPRating）",
+      "keywords": "{xxx1},{xxx2},{xxx3},{xxx1}评级报告,{xxx1}价格预测,{xxx1}走势分析,{xxx1}资质分析,{xxx1}风险预测,{xxx1}猫腻分析",
+      "description": "{outlook}"
+    },
+    "en": {
+      "title": "{xxx2}({xxx3}) - Rating report and trend analysis | DPRating",
+      "keywords": "{xxx2},{xxx3},{xxx2} ICO rating,{xxx2} ICO review,{xxx2} Crypto review,{xxx2} rating report,{xxx2} token sale review,{xxx2} price movement,{xxx2} qualification  and risk",
+      "description": "{outlook}"
+    },
+    "ko": {
+      "title": "{xxx1}（{xxx3}） - 등급 평가 보고서 및 시세 예측 | DPRating",
+      "keywords": "{xxx1},{xxx2},{xxx3},{xxx1}등급평가보고서,{xxx1}가격 예측,{xxx1}추세 분석,{xxx1}자격 분석,{xxx1}위험 예측,{xxx1}교활한 분석",
+      "description": "{outlook}"
+    }
+  },
+  "projectDetail": {
+    "zh": {
+      "title": "{xxx1}（{xxx3}） - 基本介绍及私募信息、ICO价格 | 大炮评级（DPRating）",
+      "keywords": "{xxx1},{xxx2},{xxx3},{xxx1}基本介绍,{xxx1}私募众筹价格,{xxx1}ICO价格,{xxx1}流通量,{xxx1}创始人,{xxx1}团队成员,{xxx1}投资人信息,{xxx1}顾问信息",
+      "description": "{overview}"
+    },
+    "en": {
+      "title": "{xxx2}({xxx3}) - Introduction and ICO (token sale) information about {xxx2} | DPRating",
+      "keywords": "{xxx2},{xxx3},{xxx2} introduction,{xxx2} token sale details,{xxx2} circulating supply,{xxx2} founder,{xxx2} team,{xxx2} investors,{xxx2} advisors",
+      "description": "{overview}"
+    },
+    "ko": {
+      "title": "{xxx1}（{xxx3}） - 기본 소개 및 사모 정보, ICO 가격 | DPRating",
+      "keywords": "{xxx1},{xxx2},{xxx3},{xxx1}기본 소개,{xxx1}개인 모집 가격,{xxx1}ICO 가격,{xxx1}유통량,{xxx1}설립자,{xxx1}팀 멤버,{xxx1}투자자 정보,{xxx1}컨설턴트 정보",
+      "description": "{overview}"
+    }
+  },
+  "analysis": {
+    "zh": {
+      "title": "项目分析 | 大炮评级（DPRating）",
+      "keywords": "项目分析",
+      "description": "项目分析"
+    },
+    "en": {
+      "title": "project analysis | DPRating",
+      "keywords": "project analysis",
+      "description": "project analysis"
+    },
+    "ko": {
+      "title": "프로젝트 분석 | DPRating",
+      "keywords": "프로젝트 분석",
+      "description": "프로젝트 분석"
+    }
+  },
+  "broke": {
+    "zh": {
+      "title": "爆料 | 大炮评级（DPRating）",
+      "keywords": "内部爆料,区块链黑料,区块链内部消息",
+      "description": "爆料"
+    },
+    "en": {
+      "title": "broke | DPRating",
+      "keywords": "internal breaking news, blockchain black material, blockchain internal message",
+      "description": "broke"
+    },
+    "ko": {
+      "title": "스포 | DPRating",
+      "keywords": "내부 스포,블랙체인,블록 체인 내부 메시지",
+      "description": "스포"
+    }
+  },
+  "articleDetail": {
+    "zh": {
+      "title": "{xxx1} | 大炮评级（DPRating）",
+      "keywords": "行情分析详情,爆料",
+      "description": "{xxx1}"
+    },
+    "en": {
+      "title": "{xxx1} | DPRating",
+      "keywords": "Analysis Details",
+      "description": "{xxx1}"
+    },
+    "ko": {
+      "title": "{xxx1} | DPRating",
+      "keywords": "시세 분석 자세한 상황,스포",
+      "description": "{xxx1}"
+    }
+  },
+  "index": {
+    "zh": {
+      "title": "大炮指数（DPRating） - 数字货币的道琼斯指数",
+      "keywords": "数字货币指数,综合指数,行业指数,比特币指数,以太坊指数,波动率,恐慌指数,DPC,BVIX,大炮指数",
+      "description": "大炮指数提供DP综合指数（DPC）、比特币波动率指数（BVIX），立志于成为数字货币的道琼斯指数"
+    },
+    "en": {
+      "title": "DPRating Index - Dow Jones in the crypto space",
+      "keywords": "Crypto index,Crypto Composite Index,Crypto Category Index,Bitcoin index,Ethereum index,Bitcoin VIX,Bitcoin panic index",
+      "description": "DPRating Composite Index(DPC), Bitcoin Volatility Index(BVIX), aim to be the Dow Jones in the crypto space"
+    },
+    "ko": {
+      "title": "DPRating지수 - 디지털 화폐 다우 존스 지수",
+      "keywords": "디지털 화폐 지수, 종합지수, 업계 지수, 비트 지수, 이태방지수, 파동률, 공황지수, DPC, BVIX, 대포지수,DPRating지수",
+      "description": "DPRating색인DP 종합지수 제공 (DPC), 비트코인 파동률 지수 (BVIX)），디지털 화폐가 된 다우존스 지수"
+    }
+  },
+  "model": {
+    "zh": {
+      "title": "评级模型 | 大炮评级（DPRating）",
+      "keywords": "大炮评级评级模型,评级框架,打分标准,量化标准",
+      "description": "大炮评级(DPRating)全球率先公开、透明发布的评级模型、框架"
+    },
+    "en": {
+      "title": "Rating Metrics | DPRating",
+      "keywords": "DPRating crypto metrics,DPRating rating models,ICO metrics,Crypto metrics,ICO quantitative models,Crypto quantitative models,Crypto quantitative metrics",
+      "description": "DPRating is the first to publish rating metrics on Crypto globally"
+    },
+    "ko": {
+      "title": "등급 평가 모델 | DPRating",
+      "keywords": "DPRating등급 모델,평가 프레임,채점 기준,量化标准",
+      "description": "DPRating세계 최초 공개 및 투명하게 공개 된 평가 모델 및 프레임 워크"
+    }
+  },
+  "API": {
+    "zh": {
+      "title": "API文档 | 大炮评级（DPRating）",
+      "keywords": "大炮评级API文档,接入文档,API,开放平台",
+      "description": "大炮评级(DPRating)已将评级报告、指数等，以API的形式对外免费提供，欢迎接入"
+    },
+    "en": {
+      "title": "API Documentation | DPRating",
+      "keywords": "DPRating API documentation,DPRating Open platform",
+      "description": "You can reference our rating reports and index via API for free"
+    },
+    "ko": {
+      "title": "API 문서 | DPRating",
+      "keywords": "DPRating API 문서,문서 접속,API,개방형 플랫폼",
+      "description": "DPRating 는 이미 등급 보고, 지수 등, API 형식 으로 무료 제공, 환영"
+    }
+  },
+  "login": {
+    "zh": {
+      "title": "登录 | 大炮评级（DPRating）",
+      "keywords": "",
+      "description": ""
+    },
+    "en": {
+      "title": "Login | DPRating",
+      "keywords": "",
+      "description": ""
+    },
+    "ko": {
+      "title": "로그인 | DPRating",
+      "keywords": "",
+      "description": ""
+    }
+  },
+  "upPwd": {
+    "zh": {
+      "title": "更新密码 | 大炮评级（DPRating）",
+      "keywords": "",
+      "description": ""
+    },
+    "en": {
+      "title": "Update Password | DPRating",
+      "keywords": "",
+      "description": ""
+    },
+    "ko": {
+      "title": "비밀번호 업데이트 | DPRating",
+      "keywords": "",
+      "description": ""
+    }
+  },
+  "voteList": {
+    "zh": {
+      "title": "DPRating 投票评级 | 大炮评级（DPRating）",
+      "keywords": "区块链评级,区块链免费评级,区块链投票评级",
+      "description": "大炮评级免费投票评级"
+    },
+    "en": {
+      "title": "DPRating 投票评级 | DPRating",
+      "keywords": "区块链评级,区块链免费评级,区块链投票评级",
+      "description": "大炮评级免费投票评级"
+    },
+    "ko": {
+      "title": "DPRating 投票评级 | DPRating",
+      "keywords": "区块链评级,区块链免费评级,区块链投票评级",
+      "description": "大炮评级免费投票评级"
+    }
+  },
+  "voteDetail": {
+    "zh": {
+      "title": "{xxx1} | 大炮评级（DPRating）",
+      "keywords": "区块链评级,区块链免费评级,区块链投票评级",
+      "description": "{xxx1}"
+    },
+    "en": {
+      "title": "{xxx1} | DPRating",
+      "keywords": "区块链评级,区块链免费评级,区块链投票评级",
+      "description": "{xxx1}"
+    },
+    "ko": {
+      "title": "{xxx1} | DPRating",
+      "keywords": "区块链评级,区块链免费评级,区块链投票评级",
+      "description": "{xxx1}"
+    }
+  },
+  "candyList": {
+    "zh": {
+      "title": "DPRating 投票评级 | 大炮评级（DPRating）",
+      "keywords": "区块链评级活动,DPRating",
+      "description": "大炮评级会员糖果福利"
+    },
+    "en": {
+      "title": "DPRating 投票评级 | DPRating",
+      "keywords": "区块链评级活动,DPRating",
+      "description": "大炮评级会员糖果福利"
+    },
+    "ko": {
+      "title": "DPRating 投票评级 | DPRating",
+      "keywords": "区块链评级活动,DPRating",
+      "description": "大炮评级会员糖果福利"
+    }
+  },
+  "candyDetail": {
+    "zh": {
+      "title": "{xxx1} | 大炮评级（DPRating）",
+      "keywords": "区块链评级活动,DPRating",
+      "description": "{xxx1}"
+    },
+    "en": {
+      "title": "{xxx1} | DPRating",
+      "keywords": "区块链评级活动,DPRating",
+      "description": "{xxx1}"
+    },
+    "ko": {
+      "title": "{xxx1} | DPRating",
+      "keywords": "区块链评级活动,DPRating",
+      "description": "{xxx1}"
+    }
+  }
+}

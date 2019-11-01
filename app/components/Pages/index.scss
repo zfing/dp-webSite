@@ -1,0 +1,14 @@
+@import '../../vars.scss';
+
+.CM-pages-more {
+  text-align: center;
+  background-color: #fff;
+  cursor: pointer;
+  padding: 10px 0;
+  font-size: 12px;
+  color: $gray-color;
+  &:hover {
+    background-color: $hover-bg;
+    color: $theme-blue;
+  }
+}

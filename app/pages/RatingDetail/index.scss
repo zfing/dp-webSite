@@ -1,0 +1,134 @@
+@import '../../vars.scss';
+
+.PG-project-content {
+  .m-t-60 {
+    margin-top: 60px;
+  }
+  .m-t-45 {
+    margin-top: 45px;
+  }
+
+  h4.tit {
+    font-size: 20px;
+    color: $theme-color;
+    padding: 5px 0;
+    margin: 0 0 5px;
+    border-bottom: 1px solid #DAE9F1;
+
+    &.noline {
+      border-bottom: 0;
+      margin-bottom: 20px;
+    }
+  }
+
+  .table-wrapper {
+    overflow-x: scroll;
+    table {
+      min-width: 500px;
+      width: 100%;
+      border-collapse: collapse;
+      font-family: PingFangSC-Regular;
+      font-size: 12px !important;
+      line-height: 20px;
+      color: #333333;
+      letter-spacing: 0.06px;
+      
+      * {
+        font-size: 12px !important;
+      }
+
+      tr td:first-child {
+        min-width: 100px;
+      }
+
+      th, td {
+        padding: 14px 10px;
+      }
+    }
+  }
+
+
+  .normal-table {
+    table {
+      tr {
+        &:nth-child(2n - 1) {
+          background: #F5F9FA;
+        }
+        &:nth-child(2n) {
+          background: #fff;
+        }
+
+        &:first-child {
+          word-break: keep-all;
+          background: $theme-color;
+          color: #DAE9F1;
+        }
+      }
+    }
+  }
+
+  .no-header-table {
+    table tr:nth-child(2n - 1) {
+      background: #F5F9FA;
+    }
+  }
+
+  .left-header-table {
+    table tr:nth-child(2n - 1) {
+      background: #F5F9FA;
+    }
+  }
+
+  .vertical-phase-table {
+    table tr:nth-child(2n - 1) {
+      background: #F5F9FA;
+    }
+    table tr td:not(:nth-child(2n-1)) {
+      font-family: PingFangSC-Medium;
+    }
+  }
+
+  .invest-table {
+    table {
+      td:nth-child(5) {
+        display: none;
+      }
+    }
+  }
+
+  blockquote {
+    margin: 0 0 10px;
+    padding: 15px 20px;
+    background-color: #f1f2f3;
+    border-left: 5px solid #ccc;
+    color: #666;
+    font-style: italic;
+  }
+
+  .part {
+    padding: 20px 25px;
+  }
+}
+
+.PG-rating-down-btn {
+  display: block;
+  font-family: PingFangSC-Medium;
+  font-size: 14px;
+  text-align: center;
+  background: $theme-blue;
+  color: white;
+
+  padding: 0 20px;
+  border-radius: 1000px;
+  height: 35px;
+  line-height: 35px;
+  margin-top: 7.5px;
+
+  .iconfont {
+    margin-right: 10px;
+  }
+
+  &:hover {
+    opacity: 0.9;
+  }
+}

@@ -1,0 +1,8 @@
+node_modules
+dist
+build
+static
+app/utils/initGeetest.js
+app/images
+app/utils/tween.js
+static

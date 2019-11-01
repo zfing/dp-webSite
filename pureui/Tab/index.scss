@@ -1,0 +1,51 @@
+@import '../vars.scss';
+
+.pure-tab-hd {
+  font-family: PingFangSC-Semibold;
+  font-size: 14px;
+  border-bottom: 1px solid #EDEEF2;
+
+  white-space: nowrap;
+  overflow-x: scroll;
+  margin: 0;
+  padding: 0 10px;
+
+  background: #FFFFFF;
+  height: 45px;
+  overflow: hidden;
+
+  a {
+    display: inline-block;
+    position: relative;
+    line-height: 45px;
+    padding: 0 12px;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    text-decoration: none;
+
+    &:hover {
+      color: $theme-blue;
+    }
+
+    &.active {
+      color: $theme-blue;
+      &:after{
+        position: absolute;
+        content: '';
+        display: block;
+        height: 2px;
+        left: 0;
+        right: 0;
+        bottom: 1px;
+        background: $theme-blue;
+      }
+    }
+  }
+}
+
+.pure-tab-bd {
+  display: none;
+  &.active {
+    display: block;
+  }
+}

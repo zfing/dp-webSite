@@ -1,0 +1,32 @@
+@import '../../../vars.scss';
+
+.PG-broke-menu {
+  position: sticky;
+  top: $header-h-s;
+  z-index: 1;
+
+  a {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    cursor: pointer;
+    font-size: 14px;
+    color: $gray-color;
+    &:hover,&.active {
+      color: $theme-blue;
+    }
+  }
+
+  .btn {
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    float: right;
+    margin-top: 10px;
+    background-color: $theme-blue;
+    color: #fff;
+    padding: 0 10px;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+}

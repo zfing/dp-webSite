@@ -1,0 +1,29 @@
+.pure-table {
+  overflow-x: scroll;
+  white-space: nowrap;
+
+  
+  ul,ol {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+    min-height: 1px;
+  }
+
+  .pure-table-hd, .pure-table-it {
+    clear: both;
+    li {
+      float: left;
+      flex-shrink: 0;
+      text-overflow: ellipsis;
+      overflow: hidden;
+
+      &:last-child {
+        float: right;
+      }
+    }
+  }
+}

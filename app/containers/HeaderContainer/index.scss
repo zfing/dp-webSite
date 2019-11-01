@@ -1,0 +1,91 @@
+@import '../../vars.scss';
+
+header {
+  position: sticky;
+  z-index: 12;
+  top: 0;
+  width: 100%;
+  height: $header-h;
+  font-size: 14px;
+  background: $theme-color;
+  
+  .section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    color: $header-txt-color;
+    .menu {
+      height: $header-h;
+      padding: 0 18px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      @include cubic();
+      &:hover {
+        color: #fff;
+      }
+
+      .menu-icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  @include cubic();
+
+  &.shrink {
+    height: $header-h-s;
+
+    .menu {
+      height: $header-h-s;
+    }
+  }
+
+  .toggle-item {
+    background: $theme-color;
+    padding: 0 25px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    &:hover {
+      background: $theme-blue;
+    }
+  }
+}
+
+nav.mobile {
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-size: 16px;
+  flex-direction: column;
+  text-align: center;
+  min-height: 100%;
+  background: $theme-color;
+  color: $header-txt-color;
+
+  .menu, .m-lang-toggle .toggle-item {
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    padding: 0 18px;
+    min-width: 300px;
+    height: $header-h-s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+      background: $theme-blue;
+    }
+  }
+}

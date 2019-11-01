@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>画板</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="7.10542736e-15" width="30" height="21.4285714" rx="2"></rect>
+    </defs>
+    <g id="画板" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组" transform="translate(1.000000, 1.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="background" fill="#CF2338" xlink:href="#path-1"></use>
+            <path d="M2.85714286,7.14285714 L7.25274725,9.78021978 L5.71428571,14.2857143 L9.28571429,10.952381 L12.8571429,14.2857143 L11.3186813,9.78021978 L15.7142857,7.14285714 L10.7142857,7.14285714 L7.85714286,7.14285714 L2.85714286,7.14285714 Z M10.7142857,7.14285714 L7.85714286,7.14285714 L9.28571429,2.85714286 L10.7142857,7.14285714 Z" id="star" fill="#FFD128" mask="url(#mask-2)"></path>
+            <path d="M17.1428571,4.28571429 L17.1428571,5.71428571 L18.5714286,5.71428571 L18.5714286,4.28571429 L17.1428571,4.28571429 L17.1428571,4.28571429 Z M18.5714286,7.14285714 L18.5714286,8.57142857 L20,8.57142857 L20,7.14285714 L18.5714286,7.14285714 L18.5714286,7.14285714 Z M18.5714286,10 L18.5714286,11.4285714 L20,11.4285714 L20,10 L18.5714286,10 L18.5714286,10 Z M17.1428571,12.8571429 L17.1428571,14.2857143 L18.5714286,14.2857143 L18.5714286,12.8571429 L17.1428571,12.8571429 L17.1428571,12.8571429 Z" id="circles" fill="#F8B92A" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

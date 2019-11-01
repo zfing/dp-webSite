@@ -1,0 +1,86 @@
+@import '../../../vars.scss';
+
+.CM-article-content {
+  padding: 30px;
+  border-bottom: 1px solid #f1f1f1;
+  position: relative;
+
+  .title {
+    font-size: 30px;
+    color: #333333;
+    padding: 37px 0 30px;
+    word-wrap: break-word;
+  }
+
+  .content-hide-box {
+    overflow: hidden;
+    position: relative;
+
+    &.hide {
+      height: 65px;
+      &:after {
+        content: '';
+        display: block;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        background-image: linear-gradient(-180deg, rgba(255,255,255,0.5), #fff);
+        background-size: cover;
+      }
+    }
+  }
+
+  .content {
+    position: relative;
+    background-size: 200px;
+    padding-bottom: 37px;
+    &.watermark {
+      background-image: url("/static/img/mark.png");
+    }
+  }
+
+  .login-btn {
+    text-align: center;
+    color: $theme-blue;
+    position: relative;
+    padding-top: 40px;
+
+    .iconfont {
+      font-size: 20px;
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      margin-left: -10px;
+      animation: opener .5s ease-in-out alternate infinite;
+      transition: opacity .2s ease-in-out, transform .5s ease-in-out .2s;
+    }
+  }
+
+  .cr {
+    margin-top: 40px;
+    font-size: 12px;
+    font-family: PingFangSC-Regular;
+    font-weight: bold;
+  }
+
+  .affirm {
+    line-height: 1.8;
+    color: rgba(38,38,38,0.40);
+    font-size: 12px;
+    border-top: 1px dashed #b9adad;
+    padding: 40px 20px 20px;
+  }
+}
+
+@-webkit-keyframes opener {
+  100% {
+    top: 15px;
+  }
+}
+@keyframes opener {
+  100% {
+    top: 15px;
+  }
+}

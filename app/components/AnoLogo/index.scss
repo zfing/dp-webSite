@@ -1,0 +1,40 @@
+.CM-anoLogo {
+  position: relative;
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    bottom: 95%;
+    left: 50%;
+    margin-left: -35%;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  &.CM-anoLogo-v1 {
+    &:before {
+      background-image: url(/static/img/crown_v1.svg);
+    }
+  }
+  &.CM-anoLogo-v2 {
+    &:before {
+      background-image: url(/static/img/crown_v2.svg);
+    }
+  }
+  &.CM-anoLogo-v3 {
+    &:before {
+      background-image: url(/static/img/crown_v3.svg);
+    }
+  }
+  &.CM-anoLogo-v4 {
+    &:before {
+      background-image: url(/static/img/crown_v4.svg);
+    }
+  }
+  img {
+    border-radius: 50%;
+  }
+}

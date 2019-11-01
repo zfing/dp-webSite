@@ -1,0 +1,33 @@
+.CN-apply {
+  position: relative;
+  background: #FFFFFF;
+  box-shadow: 0 0 16px 0 #DAE9F1;
+  padding: 35px 30px;
+
+  h3 {
+    font-family: PingFangSC-Thin;
+    font-size: 25px;
+    color: #004785;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    color: #838686;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  .btn-wrapper {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+}

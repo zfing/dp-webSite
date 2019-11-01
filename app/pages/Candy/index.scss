@@ -1,0 +1,86 @@
+@import '../../vars.scss';
+
+.PG-candy {
+  background-color: #fff;
+  padding: 40px 0;
+  font-size: 14px;
+  text-align: justify;
+  img {
+    max-width: 100%;
+  }
+
+  br {
+    height: 20px;
+  }
+
+  h2 {
+    margin: 20px 0;
+    font-size: 18px;
+  }
+}
+.PG-candy-list {
+  background-color: #fff;
+  padding: 20px 0;
+  min-height: 600px;
+  ul {
+    padding: 0;
+    margin: 0;
+
+    a {
+      &.expired {
+        .PG-candy-expired {
+          display: block;
+        }
+        li {
+          filter: grayscale(100%);
+        }
+      }
+
+      position: relative;
+      display: block;
+      margin-bottom: 20px;
+      &:hover {
+        li {
+          box-shadow: 0 2px 16px 10px #dae9f1;
+        }
+
+        h2 {
+          color: $theme-blue;
+        }
+      }
+      .PG-candy-expired {
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 120px;
+        margin-left: -60px;
+        margin-top: -20px;
+      }
+    }
+    li {
+      list-style: none;
+      padding: 20px;
+      @include cubic();
+
+      img {
+        width: 100%;
+      }
+
+      h2 {
+        @include cubic();
+        font-size: 24px;
+        line-height: 26px;
+        margin-top: 15px;
+      }
+
+      p {
+        font-size: 14px;
+        color: #888;
+        margin: 0;
+        padding: 0;
+        margin-top: 2px;
+      }
+    }
+  }
+}

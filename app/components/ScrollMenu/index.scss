@@ -1,0 +1,60 @@
+@import '../../vars.scss';
+
+.CM-scroll-menu {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  max-width: 860px;
+
+  @media (max-width: 1199px) {
+    max-width: 100%;
+  };
+
+  ul {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    word-break: normal;
+    white-space: nowrap;
+    overflow-x: scroll;
+  }
+
+  li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0.07px;
+    padding: 0 28px;
+    cursor: pointer;
+
+    &.active {
+      font-family: PingFangSC-Medium;
+    }
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+
+  .line-bar {
+    position: absolute;
+    z-index: 1;
+    height: 2px;
+    background-color: $theme-blue;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+
+  .right-wrapper {
+    display: inline-block;
+    padding-left: 10px;
+    height: 50px;
+    line-height: 50px;
+  }
+}
